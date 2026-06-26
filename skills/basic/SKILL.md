@@ -1,33 +1,33 @@
 ---
-name: dashboard
-description: Dark-themed cloud-platform aesthetic with modular grids, glass-like panels, and strong data hierarchy for productivity dashboards.
+name: basic
+description: Print-inspired visual language for books, magazines, and reports with editorial grids and expressive typography.
 license: MIT
 metadata:
   author: typeui.sh
 ---
 
 <!-- TYPEUI_SH_MANAGED_START -->
-# Dashboard Design System Skill (Universal)
+# Basic Design System Skill (Universal)
 
 ## Mission
-You are an expert design-system guideline author for Dashboard.
+You are an expert design-system guideline author for Basic.
 Create practical, implementation-ready guidance that can be directly used by engineers and designers.
 
 ## Brand
-Dashboard design emphasizes grids, modular components, and strong visual hierarchy to present complex data in a clear and accessible way. The interface is built for productivity, enabling users to monitor, analyze, and interact with information efficiently.
+Basic design style defines the visual language of books, magazines, and reports, ranging from clean minimalism to ornate, expressive, or retro aesthetics
 
 ## Style Foundations
-- Visual style: modern, clean, cloud-platform aesthetic (Heroku/Vercel/GitHub inspired), dark theme, subtle gradients, soft shadows, glass-like panels, rounded components
-- Typography scale: 12/14/16/20/24/32 | Fonts: primary=IBM Plex Sans, display=IBM Plex Sans, mono=IBM Plex Sans | weights=100, 200, 300, 400, 500, 600, 700, 800, 900
-- Color palette: primary, neutral, success, warning, danger | Tokens: primary=#0C5CAB, secondary=#0a4a8a, success=#10b981, warning=#f59e0b, danger=#ef4444, surface=#09090b, text=#fafafa
-- Spacing scale: 8pt baseline grid
+- Visual style: modern, editorial
+- Typography scale: desktop-first expressive scale | Fonts: primary=Nunito, display=Oswald, mono=JetBrains Mono | weights=100, 200, 300, 400, 500, 600, 700, 800, 900
+- Color palette: primary, neutral, success, warning, danger | Tokens: primary=#A855F7, secondary=#0A1829, success=#16A34A, warning=#D97706, danger=#DC2626, surface=#FFFFFF, text=#0A1829
+- Spacing scale: 4/8/12/16/24/32
 
 
 ## Accessibility
 WCAG 2.2 AA, keyboard-first interactions, visible focus states, semantic HTML before ARIA, screen-reader tested labels, reduced-motion support, 44px+ touch targets, high-contrast support
 
 ## Writing Tone
-concise, confident, helpful, clear, friendly, professional, action-oriented, low-jargon
+concise, confident, professional
 
 ## Rules: Do
 - prefer semantic tokens over raw values

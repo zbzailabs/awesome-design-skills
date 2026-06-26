@@ -1,5 +1,5 @@
 ---
-name: Publication
+name: Basic
 colors:
   primary: "#A855F7"
   secondary: "#0A1829"

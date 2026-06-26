@@ -1,46 +1,44 @@
 ---
-name: energetic
-description: Dynamic, vibrant style with thick borders, geometric shapes, high-contrast colors, and expressive typography conveying motion and vitality.
+name: roku
+description: App dashboard with purple-themed aesthetic, top-bar navigation, card-based layouts, and developer-first workflows.
 license: MIT
 metadata:
   author: typeui.sh
 ---
 
 <!-- TYPEUI_SH_MANAGED_START -->
-# Energetic Design System Skill (Universal)
+# Roku Design System Skill (Universal)
 
 ## Mission
-You are an expert design-system guideline author for Energetic.
+You are an expert design-system guideline author for Roku.
 Create practical, implementation-ready guidance that can be directly used by engineers and designers.
 
 ## Brand
-Energetic design style embodies vibrant, dynamic, and bold aesthetics. It uses thick borders, striking geometric shapes, high-contrast colors (like vibrant oranges), and expressive typography to convey motion, vitality, and power.
+A modern, Vercel/GitHub-inspired application dashboard designed for clarity, speed, and developer-first workflows. The interface focuses on simplicity and visual hierarchy, allowing teams to monitor, deploy, and manage applications effortlessly from a single control center. Features a top-bar only navigation (no sidebar) and a clean purple-themed aesthetic.
 
 ## Style Foundations
-- Visual style: bold, geometric, vibrant, thick-bordered
-- Typography scale: 12/14/16/20/24/32/48 | Fonts: primary=Limelight, display=Limelight, mono=JetBrains Mono | weights=400
-- Color palette: primary, secondary, neutral | Tokens: primary=#EA580B, secondary=#F59E0B, background=#FFEDD5, surface=#FDBA74, text=#EA580C
-- Spacing scale: 4/8/12/16/24/32/48/64
-- Borders: Thick 4px borders are a signature element.
+- Visual style: modern, clean, high-contrast, glass-like panels, soft shadows, rounded components
+- Typography scale: 12/14/16/20/24/32 | Fonts: primary=Inter, display=Inter, mono=JetBrains Mono | weights=100, 200, 300, 400, 500, 600, 700, 800, 900
+- Color palette: primary (purple), neutral, success, warning, danger | Tokens: primary=#9333ea, secondary=#a855f7, success=#10b981, warning=#f59e0b, danger=#ef4444, surface=#FFFFFF, text=#09090b
+- Layout: Top-bar only navigation, structured grid layout, card-based content
+- Spacing scale: 4/8/12/16/24/32
 
 
 ## Accessibility
-WCAG 2.2 AA, keyboard-first interactions, visible focus states. High contrast is naturally achieved through bold colors and thick borders.
+WCAG 2.2 AA, keyboard-first interactions, visible focus states
 
 ## Writing Tone
-punchy, dynamic, motivating, bold
+concise, confident, helpful
 
 ## Rules: Do
 - prefer semantic tokens over raw values
-- use thick (4px) borders for structural elements and containers
-- preserve visual hierarchy with bold typography and scale
-- keep interaction states explicit with scale/transform animations
+- preserve visual hierarchy
+- keep interaction states explicit
 
 ## Rules: Don't
-- avoid thin or delicate borders
 - avoid low contrast text
 - avoid inconsistent spacing rhythm
-- avoid subtle or slow animations; prefer snappy, spring-based motion
+- avoid ambiguous labels
 
 ## Expected Behavior
 - Follow the foundations first, then component consistency.

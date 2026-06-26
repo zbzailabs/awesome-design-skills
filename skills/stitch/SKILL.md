@@ -1,41 +1,40 @@
 ---
-name: publication
-description: Print-inspired visual language for books, magazines, and reports with editorial grids and expressive typography.
+name: stitch
+description: Clean, high-contrast enterprise design for data-driven workflows with intuitive drag-and-drop patterns and structured layouts.
 license: MIT
 metadata:
   author: typeui.sh
 ---
 
 <!-- TYPEUI_SH_MANAGED_START -->
-# Publication Design System Skill (Universal)
+# Stitch Design System Skill (Universal)
 
 ## Mission
-You are an expert design-system guideline author for Publication.
+You are an expert design-system guideline author for Stitch.
 Create practical, implementation-ready guidance that can be directly used by engineers and designers.
 
 ## Brand
-Publication design style define the visual language of books, magazines, and reports, ranging from clean minimalism to ornate, expressive, or retro aesthetics
+Everything you need – data, apps, and AI in an intuitive drag and drop interface to automate your workflows.
 
 ## Style Foundations
-- Visual style: modern, editorial
-- Typography scale: desktop-first expressive scale | Fonts: primary=Nunito, display=Oswald, mono=JetBrains Mono | weights=100, 200, 300, 400, 500, 600, 700, 800, 900
-- Color palette: primary, neutral, success, warning, danger | Tokens: primary=#A855F7, secondary=#0A1829, success=#16A34A, warning=#D97706, danger=#DC2626, surface=#FFFFFF, text=#0A1829
-- Spacing scale: 4/8/12/16/24/32
+- Visual style: clean, high-contrast, enterprise
+- Typography scale: desktop-first expressive scale | Fonts: primary=Ubuntu, display=Oswald, mono=Ubuntu Mono | weights=100, 200, 300, 400, 500, 600, 700, 800, 900
+- Color palette: primary, success, warning, danger | Tokens: primary=#072C2C, secondary=#FF5F03, success=#16A34A, warning=#D97706, danger=#DC2626, surface=#EDEADE, text=#111827
+- Spacing scale: comfortable density mode
 
+- patterns
+- images
 
 ## Accessibility
-WCAG 2.2 AA, keyboard-first interactions, visible focus states, semantic HTML before ARIA, screen-reader tested labels, reduced-motion support, 44px+ touch targets, high-contrast support
+WCAG 2.2 AA, keyboard-first interactions, visible focus states
 
 ## Writing Tone
-concise, confident, professional
+confident, helpful, friendly, professional
 
 ## Rules: Do
 - prefer semantic tokens over raw values
 - preserve visual hierarchy
 - keep interaction states explicit
-- design for empty/loading/error states
-- ensure responsive behavior by default
-- document accessibility rationale
 
 ## Rules: Don't
 - avoid low contrast text

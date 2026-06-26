@@ -1,5 +1,5 @@
 ---
-name: Energetic
+name: Pulse
 colors:
   primary: "#EA580B"
   secondary: "#F59E0B"

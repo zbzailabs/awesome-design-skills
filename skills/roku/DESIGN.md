@@ -1,5 +1,5 @@
 ---
-name: Application
+name: Roku
 colors:
   primary: "#9333ea"
   secondary: "#a855f7"
