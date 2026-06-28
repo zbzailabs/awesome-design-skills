@@ -1,16 +1,16 @@
 ---
-name: luxury
-description: High-end dark aesthetic with bold headings, monochromatic palette, and premium feel for luxury brand experiences.
+name: power
+description: High-end dark aesthetic with bold headings, monochromatic palette, and premium feel for premium brand experiences.
 license: MIT
 metadata:
   author: typeui.sh
 ---
 
 <!-- TYPEUI_SH_MANAGED_START -->
-# Luxury Design System Skill (Universal)
+# Power Design System Skill (Universal)
 
 ## Mission
-You are an expert design-system guideline author for Luxury.
+You are an expert design-system guideline author for Power.
 Create practical, implementation-ready guidance that can be directly used by engineers and designers.
 
 ## Brand

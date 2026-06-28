@@ -12,48 +12,6 @@ Each skill now ships as a folder with:
 
 **[Preview all design skills on Type UI](https://typeui.sh/design-skills)**
 
-## Quick Start
-
-Pull any design skill directly into your project using the [TypeUI CLI](https://github.com/bergside/typeui.sh):
-
-```bash
-npx typeui.sh pull <slug>
-```
-
-For example, to pull the Glassmorphism design skill:
-
-```bash
-npx typeui.sh pull glassmorphism
-```
-
-Or browse all available skills interactively:
-
-```bash
-npx typeui.sh list
-```
-
-## What is a Design Skill?
-
-A design skill is a folder containing `SKILL.md` and `DESIGN.md`.
-
-`SKILL.md` acts as the instruction source for AI agents and LLMs. It contains:
-
-- **Brand & mission** — the design philosophy and visual identity
-- **Style foundations** — typography scale, color palette, spacing system
-- **Component families** — buttons, inputs, cards, modals, navigation, and more
-- **Accessibility rules** — WCAG 2.2 AA compliance, keyboard-first interactions
-- **Writing tone** — content and voice guidelines
-- **Do/Don't rules** — explicit patterns and anti-patterns
-- **Quality gates** — testable acceptance criteria for code review
-
-`DESIGN.md` is a companion document for human readers and maintainers. It captures:
-
-- **Design overview** — concise summary of the visual direction
-- **Rationale and references** — context for why patterns/tokens exist
-- **Maintenance notes** — guidance for keeping design decisions aligned over time
-
-When an AI agent reads a skill file, it follows the `SKILL.md` guidelines to generate UI code that is consistent, accessible, and true to the design system.
-
 ## Design Skills
 
 Browse all **67** design skills. Click any thumbnail to open the live preview on [typeui.sh/design-skills](https://typeui.sh/design-skills), or copy the pull command underneath to add the skill to your project.
@@ -185,9 +143,9 @@ Browse all **67** design skills. Click any thumbnail to open the live preview on
       <sub><code>npx typeui.sh pull editorial</code></sub>
     </td>
     <td align="center" width="33%" valign="top">
-      <a href="https://typeui.sh/design-skills/elegant"><img src="./registry-examples/elegant-marketing.png" alt="Elegant" width="260" /></a><br />
-      <a href="https://typeui.sh/design-skills/elegant"><b>Elegant</b></a><br />
-      <sub><code>npx typeui.sh pull elegant</code></sub>
+      <a href="https://typeui.sh/design-skills/square"><img src="./registry-examples/square-marketing.png" alt="Square" width="260" /></a><br />
+      <a href="https://typeui.sh/design-skills/square"><b>Square</b></a><br />
+      <sub><code>npx typeui.sh pull square</code></sub>
     </td>
     <td align="center" width="33%" valign="top">
       <a href="https://typeui.sh/design-skills/pulse"><img src="./registry-examples/pulse-marketing.png" alt="Pulse" width="260" /></a><br />
@@ -270,9 +228,9 @@ Browse all **67** design skills. Click any thumbnail to open the live preview on
       <sub><code>npx typeui.sh pull lingo</code></sub>
     </td>
     <td align="center" width="33%" valign="top">
-      <a href="https://typeui.sh/design-skills/luxury"><img src="./registry-examples/luxury-marketing.png" alt="Luxury" width="260" /></a><br />
-      <a href="https://typeui.sh/design-skills/luxury"><b>Luxury</b></a><br />
-      <sub><code>npx typeui.sh pull luxury</code></sub>
+      <a href="https://typeui.sh/design-skills/power"><img src="./registry-examples/power-marketing.png" alt="Power" width="260" /></a><br />
+      <a href="https://typeui.sh/design-skills/power"><b>Power</b></a><br />
+      <sub><code>npx typeui.sh pull power</code></sub>
     </td>
     <td align="center" width="33%" valign="top">
       <a href="https://typeui.sh/design-skills/material"><img src="./registry-examples/material-marketing.png" alt="Material" width="260" /></a><br />
@@ -443,6 +401,48 @@ Browse all **67** design skills. Click any thumbnail to open the live preview on
     <td align="center" width="33%"></td>
   </tr>
 </table>
+
+## Quick Start
+
+Pull any design skill directly into your project using the [TypeUI CLI](https://github.com/bergside/typeui.sh):
+
+```bash
+npx typeui.sh pull <slug>
+```
+
+For example, to pull the Glassmorphism design skill:
+
+```bash
+npx typeui.sh pull glassmorphism
+```
+
+Or browse all available skills interactively:
+
+```bash
+npx typeui.sh list
+```
+
+## What is a Design Skill?
+
+A design skill is a folder containing `SKILL.md` and `DESIGN.md`.
+
+`SKILL.md` acts as the instruction source for AI agents and LLMs. It contains:
+
+- **Brand & mission** — the design philosophy and visual identity
+- **Style foundations** — typography scale, color palette, spacing system
+- **Component families** — buttons, inputs, cards, modals, navigation, and more
+- **Accessibility rules** — WCAG 2.2 AA compliance, keyboard-first interactions
+- **Writing tone** — content and voice guidelines
+- **Do/Don't rules** — explicit patterns and anti-patterns
+- **Quality gates** — testable acceptance criteria for code review
+
+`DESIGN.md` is a companion document for human readers and maintainers. It captures:
+
+- **Design overview** — concise summary of the visual direction
+- **Rationale and references** — context for why patterns/tokens exist
+- **Maintenance notes** — guidance for keeping design decisions aligned over time
+
+When an AI agent reads a skill file, it follows the `SKILL.md` guidelines to generate UI code that is consistent, accessible, and true to the design system.
 
 ## Usage
 

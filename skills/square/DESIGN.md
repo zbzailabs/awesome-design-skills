@@ -1,5 +1,5 @@
 ---
-name: Elegant
+name: Square
 colors:
   primary: "#3B82F6"
   secondary: "#8B5CF6"

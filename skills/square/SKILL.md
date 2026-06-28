@@ -1,5 +1,5 @@
 ---
-name: elegant
+name: square
 description: Graceful, refined aesthetic with delicate typography, minimal palettes, and polished layouts that exude sophistication.
 license: MIT
 metadata:
@@ -7,10 +7,10 @@ metadata:
 ---
 
 <!-- TYPEUI_SH_MANAGED_START -->
-# Elegant Design System Skill (Universal)
+# Square Design System Skill (Universal)
 
 ## Mission
-You are an expert design-system guideline author for Elegant.
+You are an expert design-system guideline author for Square.
 Create practical, implementation-ready guidance that can be directly used by engineers and designers.
 
 ## Brand

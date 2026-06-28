@@ -1,5 +1,5 @@
 ---
-name: Luxury
+name: Power
 colors:
   primary: "#FAFAFA"
   secondary: "#FAFAFA"
@@ -32,7 +32,7 @@ spacing:
 
 ## Overview
 
-High-end dark aesthetic with bold headings, monochromatic palette, and premium feel for luxury brand experiences.
+High-end dark aesthetic with bold headings, monochromatic palette, and premium feel for premium brand experiences.
 
 ## Style Foundations
 
