@@ -10,11 +10,9 @@ Each skill now ships as a folder with:
 - `SKILL.md` for AI-agent instructions (tokens, component rules, accessibility constraints, quality gates)
 - `DESIGN.md` for human-readable design intent, rationale, and implementation notes
 
-**[Preview all design skills on Type UI](https://typeui.sh/design-skills)**
+**[Preview all design skills on TypeUI](https://typeui.sh/design-skills)**
 
 ## Design Skills
-
-Browse all **67** design skills. Click any thumbnail to open the live preview on [typeui.sh/design-skills](https://typeui.sh/design-skills), or copy the pull command underneath to add the skill to your project.
 
 <table>
   <tr>
@@ -448,7 +446,7 @@ When an AI agent reads a skill file, it follows the `SKILL.md` guidelines to gen
 
 ### Pull a skill into your project
 
-Use the [typeui.sh CLI](https://github.com/bergside/typeui.sh) to pull any skill by its slug:
+Use the [TypeUI CLI](https://github.com/bergside/typeui.sh) to pull any skill by its slug:
 
 ```bash
 npx typeui.sh pull <slug>
